@@ -6,15 +6,11 @@ using namespace std;
 int main() {
 
 
-    double PI = 3.14159;
-    double R;
+    int a, b;
 
-    cin >> R;
+    cin >> a >> b;
 
-    double A = PI * R * R;
-
-    cout <<"A="<< fixed << setprecision(4) << A << endl;
-
+    cout << "PROD = " << a + b << endl;
 
     return 0;
 }
