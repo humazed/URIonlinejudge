@@ -10,7 +10,7 @@ int main() {
 
     cin >> a >> b;
 
-    cout << "PROD = " << a + b << endl;
+    cout << "PROD = " << a * b << endl;
 
     return 0;
 }
