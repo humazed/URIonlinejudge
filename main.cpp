@@ -1,15 +1,19 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
 int main() {
 
-    int A, B;
-    cin >> A >> B;
 
-    int X = A + B;
+    double PI = 3.14159;
+    double R;
 
-    cout << "X = " << X << endl;
+    cin >> R;
+
+    double A = PI * R * R;
+
+    cout <<"A="<< fixed << setprecision(4) << A << endl;
 
 
     return 0;
