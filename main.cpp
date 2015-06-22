@@ -6,11 +6,11 @@ using namespace std;
 int main() {
 
 
-    float a, b, c;
+    int a, b, c, d;
 
-    cin >> setprecision(1) >> a >> b >> c;
+    cin >> a >> b >> c >> d;
 
-    cout << "MEDIA = " << fixed << setprecision(1) << (a * 2 + b * 3 + c * 5) / 10 << endl;
+    cout << "DIFERENCA = " << a * b - c * d << endl;
 
     return 0;
 }
