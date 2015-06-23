@@ -1,23 +1,21 @@
 #include <iostream>
 #include <iomanip>
+#include <cmath>
 
 using namespace std;
 
 int main() {
 
 
-    float a, b, c;
-    double pi = 3.14159;
-
+    int a, b, c, d;
 
     cin >> a >> b >> c;
 
+    d = (int) ((a + b + abs(a - b)) / 2);
+    d = (int) ((d + c + abs(d - c)) / 2);
 
-    cout << "TRIANGULO: " << fixed << setprecision(3) << .5 * a * c << endl;
-    cout << "CIRCULO: " << fixed << setprecision(3) << pi * c * c << endl;
-    cout << "TRAPEZIO: " << fixed << setprecision(3) << c * ((a + b) / 2) << endl;
-    cout << "QUADRADO: " << fixed << setprecision(3) << b * b << endl;
-    cout << "RETANGULO: " << fixed << setprecision(3) << a * b << endl;
+
+    cout << d << " eh o maior" << endl;
 
     return 0;
 }
