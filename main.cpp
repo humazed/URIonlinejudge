@@ -6,15 +6,14 @@ using namespace std;
 int main() {
 
 
-    int a, b, c, d;
-    float e, f;
+    int a;
+    double pi = 3.14159;
 
 
-    cin >> a >> b >> e;
-    cin >> c >> d >> f;
+    cin >> a;
 
 
-    cout << "VALOR A PAGAR: R$ " << fixed << setprecision(2) << b * e + d * f << endl;
+    cout << "VOLUME = " << fixed << setprecision(3) << (4 / 3.0) * pi * a * a * a << endl;
 
     return 0;
 }
