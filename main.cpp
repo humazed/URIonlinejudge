@@ -6,13 +6,15 @@ using namespace std;
 int main() {
 
 
-    string name;
-    double a, b;
+    int a, b, c, d;
+    float e, f;
 
 
-    cin >> name >> a >> b;
+    cin >> a >> b >> e;
+    cin >> c >> d >> f;
 
-    cout << "TOTAL = R$ " << fixed << setprecision(2) << a + b * .15 << endl;
+
+    cout << "VALOR A PAGAR: R$ " << fixed << setprecision(2) << b * e + d * f << endl;
 
     return 0;
 }
