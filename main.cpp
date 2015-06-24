@@ -1,21 +1,17 @@
 #include <iostream>
 #include <iomanip>
-#include <cmath>
 
 using namespace std;
 
 int main() {
 
 
-    int a, b, c, d;
+    int a;
+    float b;
 
-    cin >> a >> b >> c;
+    cin >> a >> b;
 
-    d = (int) ((a + b + abs(a - b)) / 2);
-    d = (int) ((d + c + abs(d - c)) / 2);
-
-
-    cout << d << " eh o maior" << endl;
+    cout << fixed << setprecision(3) << a / b << " km/l" << endl;
 
     return 0;
 }
